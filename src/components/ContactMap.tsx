@@ -20,11 +20,11 @@ export default function ContactMap() {
 
     setIsSubmitting(true);
 
-    const boldHeader = `*New Lead from Vinayaka Electrical Palace Website*`;
+    const boldHeader = `Hello Vinayaka Electrical Palace, I'm visiting your website and have an inquiry. Here are my details:`;
     const body = `${boldHeader}\n\n` +
                  `👤 *Customer Name:* ${name.trim()}\n` +
-                 `📞 *Phone Number:* ${phone.trim()}\n` +
-                 `🏷️ *Product Interest:* ${category}\n\n` +
+                 `📞 *Phone / Contact:* ${phone.trim()}\n` +
+                 `🏷️ *Product / Brand Interest:* ${category}\n\n` +
                  `💬 *Requirement Details:*\n${message.trim()}`;
 
     const storeNumber = '917411279019';
@@ -160,7 +160,7 @@ export default function ContactMap() {
                 <i className="fa-solid fa-clock text-[var(--accent-gold)] text-xl mt-1"></i>
                 <div>
                   <h5 className="font-[font-heading] font-semibold text-[0.95rem] uppercase tracking-wider text-[var(--text-primary)] mb-1">Business Hours</h5>
-                  <p className="text-[var(--text-secondary)] text-[0.95rem]">Mon - Sat: 10:30 AM - 8:30 PM | Sunday: Closed</p>
+                  <p className="text-[var(--text-secondary)] text-[0.95rem]">Mon - Sun: 9:00 AM - 9:00 PM</p>
                 </div>
               </div>
             </div>
@@ -170,9 +170,9 @@ export default function ContactMap() {
           <div className="rounded-[var(--radius-lg)] overflow-hidden relative border border-[var(--border-color)] h-[320px] lg:h-auto min-h-[320px] lg:min-h-full">
             <div className="absolute top-5 left-5 z-10">
               <a
-                href="https://maps.google.com/?q=Vinayaka+Electrical+Palace+BVK+Iyengar+Rd+Chickpet+Bengaluru"
+                href="https://maps.app.goo.gl/HMrNbzZKKAtpXwQk8"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold uppercase tracking-wider bg-[var(--bg-card)] hover:bg-[var(--accent-gold)] hover:text-black border border-[var(--border-color)] rounded-[var(--radius-sm)] text-[var(--text-primary)] duration-200"
               >
                 <i className="fa-solid fa-location-arrow"></i>
@@ -182,12 +182,12 @@ export default function ContactMap() {
 
             {/* Embedded maps iframe */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.973418525867!2d77.5739343!3d12.9735492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae160a0a5aa44d%3A0xe98ee9d4bbdb1f85!2sBVK%20Iyengar%20Rd%2C%20Chickpet%2C%20Bengaluru%2C%20Karnataka%20560053!5e0!3m2!1sen!2sin!4v1716800000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9620573981273!2d77.5735112!3d12.9741639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1797bf84a767%3A0xe58146805a982620!2sVinayak+Electrical+Palace+-+Chickpet!5e0!3m2!1sen!2sin!4v1716800000000!5m2!1sen!2sin"
               className="w-full h-full border-none absolute top-0 left-0 dark-map-invert transition-all duration-300"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Vinayaka Electrical Palace Map Location"
+              title="Vinayak Electrical Palace Map Location"
             ></iframe>
           </div>
         </div>

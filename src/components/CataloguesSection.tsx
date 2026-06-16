@@ -103,7 +103,12 @@ const CATALOGUES: CatalogueBrand[] = [
 export default function CataloguesSection() {
   const getPdfUrl = (path: string) => {
     const cleanPath = path.startsWith('/') ? path.slice(1) : path;
-    return `${import.meta.env.BASE_URL}${cleanPath}`;
+    const baseUrl = import.meta.env.BASE_URL || '/';
+    if (baseUrl === './' || baseUrl === '') {
+      return `./${cleanPath}`;
+    }
+    const cleanBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+    return `${cleanBase}${cleanPath}`;
   };
 
   return (

@@ -48,7 +48,7 @@ export default function Hero() {
             <span>Explore Products</span>
             <i className="fa-solid fa-arrow-right"></i>
           </a>
-          <a href="https://wa.me/917411279019?text=Hi%20Vinayaka%20Electrical%20Palace%2C%20I%20would%20like%20to%20enquire%20about%20your%20products." target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3.5 font-semibold text-[1rem] border border-[var(--whatsapp-green)] text-[var(--whatsapp-green)] rounded-[var(--radius-sm)] hover:bg-[var(--whatsapp-green)] hover:text-white hover:-translate-y-0.5 transition-all w-full sm:w-auto gap-2.5">
+          <a href="https://wa.me/917411279019?text=Hello%20Vinayaka%20Electrical%20Palace%2C%20I'm%20visiting%20your%20website%20and%20have%20an%20inquiry." target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3.5 font-semibold text-[1rem] border border-[var(--whatsapp-green)] text-[var(--whatsapp-green)] rounded-[var(--radius-sm)] hover:bg-[var(--whatsapp-green)] hover:text-white hover:-translate-y-0.5 transition-all w-full sm:w-auto gap-2.5">
             <i className="fa-brands fa-whatsapp text-lg"></i>
             <span>Chat on WhatsApp</span>
           </a>

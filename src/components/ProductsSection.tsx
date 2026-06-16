@@ -175,7 +175,7 @@ export default function ProductsSection() {
   };
 
   const getWhatsAppLink = (prodName: string) => {
-    const text = `Hi Vinayaka Electrical Palace, I am interested in [${prodName}]. Please provide more details.`;
+    const text = `Hello Vinayaka Electrical Palace, I'm visiting your website and have an inquiry about ${prodName}.`;
     return `https://wa.me/917411279019?text=${encodeURIComponent(text)}`;
   };
 
@@ -350,7 +350,7 @@ export default function ProductsSection() {
                     href={getWhatsAppLink(prod.name)}
                     target="_blank"
                     className="w-full bg-[var(--button-red)] text-white py-2 rounded text-[0.75rem] font-sans font-semibold flex items-center justify-center gap-1 hover:bg-[var(--button-red-hover)] hover:scale-102 transition-all outline-none"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     id={`whatsapp-btn-${prod.id}`}
                   >
                     <i className="fa-brands fa-whatsapp text-xs"></i>

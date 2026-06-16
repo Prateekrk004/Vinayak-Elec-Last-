@@ -43,15 +43,14 @@ export default function SwitchStudio() {
     const selectedKeys = slotSwitches.find(s => s.id === switchColor)?.name || switchColor;
     const selectedWall = walls.find(w => w.id === wallTexture)?.name || wallTexture;
 
-    const boldIntro = `*Custom Switch Configuration - GM Modular Switch Studio*`;
+    const boldIntro = `Hello Vinayaka Electrical Palace, I'm visiting your website and have an inquiry. Below is my custom modular switchboard configuration customized in your virtual Switch Studio:`;
     const formattedText = `${boldIntro}\n\n` +
                           `⚙️ *Plate Finish:* ${selectedPlate}\n` +
                           `🔑 *Switch Keys Finish:* ${selectedKeys}\n` +
                           `🏠 *Visual Wall Texture:* ${selectedWall}\n` +
                           `💡 *Neon LED Status:* ${ledIndicatorActive ? 'Enabled ●' : 'Disabled ○'}\n` +
                           `🔌 *Switch 1 Position:* ${switch1Active ? 'Switched ON (Light Active)' : 'OFF'}\n` +
-                          `🔌 *Switch 2 Position:* ${switch2Active ? 'ON' : 'OFF'}\n\n` +
-                          `Hi Vinayaka Electrical Palace, I customized this modular switchboard configuration inside your virtual Switch Studio and would like to place an order or get a quote.`;
+                          `🔌 *Switch 2 Position:* ${switch2Active ? 'ON' : 'OFF'}`;
 
     const storeNumber = '917411279019';
     const finalUrl = `https://wa.me/${storeNumber}?text=${encodeURIComponent(formattedText)}`;

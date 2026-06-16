@@ -54,9 +54,9 @@ export default function Header() {
         {/* Logo and SVG and interactive light-beam theme coloring */}
         <a href="#home" className="flex items-center shrink-0" aria-label="Vinayaka Electrical Palace Home">
           <img
-            src="/logo-cropped.png"
+            src="./logo-cropped.png"
             alt="Vinayaka Electrical Palace"
-            className="h-[58px] sm:h-[70px] md:h-[82px] lg:h-[100px] xl:h-[100px] w-auto"
+            className="h-[105px] sm:h-[135px] md:h-[160px] lg:h-[195px] xl:h-[205px] w-auto max-h-none object-contain scale-[1.3] origin-center -my-7 sm:-my-[42px] md:-my-[52px] lg:-my-[64px] xl:-my-[68px] drop-shadow-md"
             referrerPolicy="no-referrer"
             id="header-logo"
           />
@@ -85,10 +85,10 @@ export default function Header() {
         {/* Quick Utility Side Actions */}
         <div className="flex items-center gap-3 sm:gap-4 font-normal shrink-0">
           <a
-            href="https://wa.me/917411279019?text=Hi%20Vinayaka%20Electrical%20Palace,%20I'm%20visiting%20your%20website%20and%20have%20an%20inquiry."
+            href="https://wa.me/917411279019?text=Hello%20Vinayaka%20Electrical%20Palace%2C%20I'm%20visiting%20your%20website%20and%20have%20an%20inquiry."
             target="_blank"
             className="bg-[var(--whatsapp-green)] text-white px-2.5 py-1.5 sm:px-4 sm:py-2.5 rounded-[var(--radius-sm)] font-['Outfit'] font-semibold text-[0.8rem] sm:text-[0.9rem] flex items-center gap-1.5 sm:gap-2 hover:bg-[var(--whatsapp-hover)] shadow-md transition-all duration-300"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <i className="fa-brands fa-whatsapp text-sm"></i>
             <span className="hidden xs:inline sm:inline">Enquire</span>
