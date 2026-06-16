@@ -24,15 +24,6 @@ export const WIRES_CATALOGUES: WiresCatalogueBrand[] = [
     glowClass: 'shadow-blue-500/10'
   },
   {
-    name: 'Finolex Wires & Cables',
-    pdfPath: '/catalogs/wires/finolex.pdf',
-    fileName: 'Finolex_Wires_Cables_Catalogue.pdf',
-    desc: 'Premium quality PVC insulated electrical wires, 3-core flat submersible cables, telephone cables, and copper shielded coaxial TV wires.',
-    badge: 'Extra Flexible Copper',
-    accentClass: 'from-red-600 to-orange-500 border-red-500/20 text-red-400',
-    glowClass: 'shadow-red-500/10'
-  },
-  {
     name: 'Polycab Wires & Cables',
     pdfPath: '/catalogs/wires/polycab.pdf',
     fileName: 'Polycab_Wires_Cables_Catalogue.pdf',

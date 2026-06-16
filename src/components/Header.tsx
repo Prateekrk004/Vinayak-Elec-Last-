@@ -51,12 +51,12 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-[var(--bg-header)] backdrop-blur-md border-b border-[var(--border-color)] shadow-[var(--header-shadow)] transition-all duration-300">
       <div className="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 h-[64px] sm:h-[76px] md:h-[88px] lg:h-[108px] xl:h-[110px] flex items-center justify-between gap-4">
-        {/* Logo and SVG and interactive light-beam theme coloring */}
+        {/* Logo with interactive styling using the new direct image URL */}
         <a href="#home" className="flex items-center shrink-0" aria-label="Vinayaka Electrical Palace Home">
           <img
-            src="./logo-cropped.png"
-            alt="Vinayaka Electrical Palace"
-            className="h-[105px] sm:h-[135px] md:h-[160px] lg:h-[195px] xl:h-[205px] w-auto max-h-none object-contain scale-[1.3] origin-center -my-7 sm:-my-[42px] md:-my-[52px] lg:-my-[64px] xl:-my-[68px] drop-shadow-md"
+            src="https://i.ibb.co/gLHmD93Y/Whats-App-Image-2026-06-16-at-12-34-44-removebg-preview-1.png"
+            alt="Vinayaka Electrical Palace Logo"
+            className="h-[105px] sm:h-[130px] md:h-[155px] lg:h-[185px] xl:h-[195px] w-auto max-h-none object-contain scale-[1.25] origin-center -my-[20px] sm:-my-[27px] md:-my-[33px] lg:-my-[38px] xl:-my-[42px] transition-all duration-300 hover:scale-[1.3] drop-shadow-md"
             referrerPolicy="no-referrer"
             id="header-logo"
           />
