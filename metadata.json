@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Vinayaka Electrical Palace last",
+  "description": "Premium Electrical Showroom and GM Modular Switch Studio",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

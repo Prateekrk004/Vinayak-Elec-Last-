@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+/* ==========================================
+   VINAYAKA ELECTRICAL PALACE DESIGN SYSTEM
+   Premium Light & Dark Mode System - Vanilla CSS
+   ========================================== */
+:root {
+  /* Color Palette - Earthy Artisanal Cream, Tactile Beige, Roasted Cocoa */
+  --bg-main: #faf7f2; /* Clean, flat, matte soft warm ivory and tactile cream */
+  --bg-section: #f7f3eb; /* Slightly deeper tactile warm section */
+  --bg-card: #f3eae0; /* Soft warm ivory/beige card */
+  --bg-card-hover: #e9dbce; /* Hover soft warm beige */
+  --border-color: #e5d9cc;
+  --border-hover: #c48259; /* Cinnamon-terracotta tint */
+  
+  --text-primary: #2e2522; /* Rich roasted cocoa dark charcoal */
+  --text-secondary: #5a4b46; /* Soft warm cocoa subtext */
+  --text-muted: #8e7a73;
+  
+  --primary-color: #800020; /* Deep burgundy/rich crimson red */
+  --primary-hover: #630016;
+  --primary-glow: rgba(128, 0, 32, 0.15);
+  
+  --accent-gold: #c48259; /* Dry cinnamon-terracotta clay / warm gold */
+  --accent-gold-hover: #ad6d48;
+  --accent-gold-glow: rgba(196, 130, 89, 0.15);
+
+  --button-red: #c21d1d; /* Rich crimson red button */
+  --button-red-hover: #9a1313;
+  --button-red-glow: rgba(194, 29, 29, 0.2);
+  
+  --whatsapp-green: #22c55e;
+  --whatsapp-hover: #16a34a;
+  
+  /* Layout & Shadows */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-circle: 50%;
+  
+  --shadow-sm: 0 1px 3px 0 rgba(46, 37, 34, 0.05), 0 1px 2px -1px rgba(46, 37, 34, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(46, 37, 34, 0.08), 0 2px 4px -2px rgba(46, 37, 34, 0.08);
+  --shadow-lg: 0 10px 15px -3px rgba(46, 37, 34, 0.1), 0 4px 6px -4px rgba(46, 37, 34, 0.1);
+  --shadow-glow: 0 0 20px rgba(128, 0, 32, 0.1);
+  
+  --glass-bg: rgba(250, 247, 242, 0.85);
+  --glass-blur: blur(16px);
+  --glass-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.6), 0 8px 32px 0 rgba(46, 37, 34, 0.05);
+  
+  --transition-speed: 0.35s;
+
+  /* Logo theme vars */
+  --logo-text-color: #2e2522;
+  --logo-stand-color: #5a4b46;
+  --logo-accent-color: #800020;
+  --logo-gold: #c48259;
+
+  /* Adaptive components light settings */
+  --bg-header: rgba(250, 247, 242, 0.85);
+  --header-shadow: 0 1px 3px 0 rgba(46, 37, 34, 0.05);
+  
+  --bg-footer: #f7f3eb;
+  --text-footer-primary: #2e2522;
+  --text-footer-secondary: #5a4b46;
+  --border-footer: #e5d9cc;
+  
+  --bg-switch-slot: rgba(46, 37, 34, 0.05);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+
+/* Glassmorphism Styles */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-shadow);
+}
+
+/* Animations */
+.pulse-ring {
+  animation: wavePulse 2.2s infinite ease-out;
+}
+
+@keyframes wavePulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.85;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+/* Lamp Beam Pulse */
+.logo-light-beam {
+  transform-origin: 0 0;
+  animation: pulseGlow 4s infinite ease-in-out;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 0.95;
+  }
+}
+
+/* Scrolling indicator wheel anim */
+@keyframes scrollWheel {
+  0% {
+    top: 8px;
+    opacity: 1;
+  }
+  100% {
+    top: 24px;
+    opacity: 0;
+  }
+}
+
+.mouse-wheel {
+  animation: scrollWheel 1.5s infinite ease-in-out;
+}
+
+/* Responsive Maps Coloring */
+.dark-map-invert {
+  /* No default invert in single premium light theme */
+}
