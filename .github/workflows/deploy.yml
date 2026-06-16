@@ -43,7 +43,7 @@ jobs:
       - name: Build
         run: |
           npm run build
-          cp docs/index.html docs/404.html
+          cp dist/index.html dist/404.html
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -51,8 +51,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # We deploy from the build output directory, which is configured as 'docs' in vite.config.ts
-          path: './docs'
+          # We deploy from the build output directory, which is configured as 'dist' in vite.config.ts
+          path: './dist'
       
       - name: Deploy to GitHub Pages
         id: deployment
