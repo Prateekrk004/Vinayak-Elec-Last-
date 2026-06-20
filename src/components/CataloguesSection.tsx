@@ -97,6 +97,51 @@ const CATALOGUES: CatalogueBrand[] = [
     badge: 'Creative Space-saving',
     accentClass: 'from-amber-500 to-yellow-400 border-amber-500/20 text-amber-400',
     glowClass: 'shadow-amber-500/10'
+  },
+  {
+    name: 'Anchor',
+    pdfPath: '/catalogs/switches/Anchor.pdf',
+    fileName: 'Anchor_Catalogue.pdf',
+    desc: 'Panasonic-backed high durability switches, modular premium plates, sockets, and heavy-duty electric accessories.',
+    badge: 'Panasonic Engineering',
+    accentClass: 'from-red-600 to-rose-500 border-red-500/20 text-red-400',
+    glowClass: 'shadow-red-500/10'
+  },
+  {
+    name: 'Lisha',
+    pdfPath: '/catalogs/switches/Lisha.pdf',
+    fileName: 'Lisha_Catalogue.pdf',
+    desc: 'Sleek modular switches, modern plates, multi-plug connectors, and budget-friendly household fittings.',
+    badge: 'Reliable & Modular',
+    accentClass: 'from-yellow-600 to-amber-500 border-yellow-500/20 text-yellow-500',
+    glowClass: 'shadow-yellow-500/10'
+  },
+  {
+    name: 'Schneider',
+    pdfPath: '/catalogs/switches/Schneider.pdf',
+    fileName: 'Schneider_Catalogue.pdf',
+    desc: 'Global leader in digital energy management and elegant upscale architectural switches.',
+    badge: 'French Luxury Tech',
+    accentClass: 'from-emerald-600 to-green-500 border-emerald-500/20 text-emerald-400',
+    glowClass: 'shadow-emerald-500/10'
+  },
+  {
+    name: 'Indo Asian',
+    pdfPath: '/catalogs/switches/indoasian.pdf',
+    fileName: 'Indo_Asian_Catalogue.pdf',
+    desc: 'High safety distribution boards, switches, protection gear, and modular socket solutions.',
+    badge: 'Exceptional Safety standards',
+    accentClass: 'from-orange-600 to-red-500 border-orange-500/20 text-orange-400',
+    glowClass: 'shadow-orange-500/10'
+  },
+  {
+    name: 'Fybros',
+    pdfPath: '/catalogs/switches/fybros.pdf',
+    fileName: 'Fybros_Catalogue.pdf',
+    desc: 'Ultra-modern switch plates, energy-efficient smart touch panels, and flexible domestic copper components.',
+    badge: 'Smart Living Series',
+    accentClass: 'from-violet-600 to-indigo-500 border-violet-500/20 text-violet-400',
+    glowClass: 'shadow-violet-500/10'
   }
 ];
 
